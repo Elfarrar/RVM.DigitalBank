@@ -1,4 +1,10 @@
 <Solution>
+  <Folder Name="/files/">
+    <File Path=".dockerignore" />
+    <File Path=".gitattributes" />
+    <File Path=".gitignore" />
+    <File Path="Readme.md" />
+  </Folder>
   <Folder Name="/src/">
     <Project Path="src/Account.API/Account.API.csproj" />
   </Folder>
