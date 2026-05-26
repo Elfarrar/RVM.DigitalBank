@@ -2,9 +2,10 @@
 {
     public static class HealthEndpoint
     {
-        public static void MapHealthEndpoint(this IEndpointRouteBuilder app)
+        public static IEndpointRouteBuilder MapHealthEndpoint(this IEndpointRouteBuilder app)
         {
             app.MapHealthChecks("/health");
+            return app;
         }
     }
 }
